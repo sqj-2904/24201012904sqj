@@ -1,0 +1,147 @@
+/* styles.css */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #000;
+        font-family: Arial, sans-serif;
+    }
+  
+    .username{
+        color: #fff;
+    }
+
+    .level{
+        color: #fff;
+    }
+
+    .membership{
+        color: #fff;
+    }
+
+    .currencies>span{
+        color: #4c4b4b;
+    }
+    .user-info {
+        display: flex;
+        align-items: center;
+        margin: 20px;
+    }
+  
+    .avatar {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    
+    .user-details {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .user-stats {
+        display: flex;
+        color: #fff;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        justify-content: space-around; /* 均匀分布子元素 */
+        width: 100%; /* 占满父容器宽度 */
+    }
+    
+    .user-stats.stat-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .user-stats.stat-number {
+        font-size: 18px; /* 可根据需要调整数字字体大小 */
+    }
+    
+    .user-stats.stat-label {
+        font-size: 12px; /* 可根据需要调整标签字体大小 */
+    }
+    
+    .more-services {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .service {
+        margin: 10px;
+        color: pink;
+    }
+    
+    .bottom-nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        bottom: 0;
+        background-color: #000;
+        padding: 10px;
+    }
+    
+    .icon {
+        width: 1em;
+        height: 1em;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+    }
+    
+    /* 固定导航一起用 否则导航不出来 必须设置 */
+    body {
+        margin-bottom: 50px;
+    }
+    
+    .bnav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: #000;
+        width: 100%;
+        z-index: 9;
+    }
+    
+    .bnav>ul {
+        display: flex;
+    }
+    
+    .bnav li {
+        /* 自适应宽度 5个li 100%/5=20% */
+        width: 20%;
+        text-align: center;
+    }
+    
+    .bnav p {
+        color: #fff;
+        font-size: 10px;
+        line-height: 26px;
+        letter-spacing: 3px;
+    }
+    
+    .bnav li:nth-child(1):hover p {
+        color: rgb(234, 129, 146);
+    }
+    
+    .bnav li:nth-child(2):hover p {
+        color: rgb(234, 129, 146);
+    }
+    
+    .bnav li:nth-child(4):hover p {
+        color: rgb(234, 129, 146);
+    }
+    
+    .bnav li:nth-child(5):hover p {
+        color: rgb(234, 129, 146);
+    }
