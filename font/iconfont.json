@@ -1,0 +1,72 @@
+{
+  "id": "4751131",
+  "name": "font",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "690196",
+      "name": "动态",
+      "font_class": "iconfontdongtai",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "26795185",
+      "name": "b站-我的",
+      "font_class": "bzhan-wode",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "40052717",
+      "name": "b站-首页-copy",
+      "font_class": "bzhan-shouye1",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "40185359",
+      "name": "会员购激活@2x-copy",
+      "font_class": "huiyuangoujihuox",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "42498799",
+      "name": "会员购@2x-copy",
+      "font_class": "vip1",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "6648194",
+      "name": "扩展",
+      "font_class": "kuozhan",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "26795184",
+      "name": "b站-首页",
+      "font_class": "bzhan-shouye",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "34886110",
+      "name": "动态-copy",
+      "font_class": "dongtai",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "37406906",
+      "name": "b站-我的-copy",
+      "font_class": "bzhan-wode1",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}
